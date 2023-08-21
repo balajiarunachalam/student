@@ -78,6 +78,7 @@ clean: stop
 
 
 # Stop the server and kill processes
+# Test Command
 stop:
 	@echo "Stopping server..."
 	@# kills process running on port $(PORT)
